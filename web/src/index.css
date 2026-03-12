@@ -1,0 +1,159 @@
+:root {
+  --paper:   #25262B;
+  --bg:      #1A1B1E;
+  --card:    #2C2E33;
+  --border:  #444;
+  --text:    rgba(255,255,255,0.87);
+  --muted:   rgba(255,255,255,0.45);
+  --cdf:     #20D9A0;
+  --bib:     #FF6B6B;
+  --kde:     #40C0FF;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
+#root { display: flex; flex-direction: column; min-height: 100vh; }
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+.header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.header h1 { font-size: 16px; font-weight: 600; white-space: nowrap; color: var(--text); }
+
+/* ── Controls row ────────────────────────────────────────────────────────── */
+.controls {
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 20px;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ── Select / Input ──────────────────────────────────────────────────────── */
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+
+select, input[type="text"] {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 13px;
+  outline: none;
+  height: 32px;
+}
+select:focus, input[type="text"]:focus { border-color: var(--kde); }
+select option { background: var(--card); }
+
+/* ── Search area ─────────────────────────────────────────────────────────── */
+.search-area { display: flex; align-items: flex-end; gap: 8px; flex-wrap: wrap; }
+.search-results {
+  position: relative;
+}
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  min-width: 260px;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 2px;
+}
+.search-dropdown button {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  color: var(--text);
+  text-align: left;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.search-dropdown button:hover { background: rgba(255,255,255,0.07); }
+
+/* ── Main chart ──────────────────────────────────────────────────────────── */
+.main-chart { padding: 0 8px; }
+
+/* ── Runner panel ────────────────────────────────────────────────────────── */
+.runner-panel-wrapper {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  margin-top: 24px;
+  padding-top: 24px;
+}
+
+.runner-panel {
+  margin: 0 20px 40px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.stats-card {
+  background: var(--card);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.stats-card .name { font-size: 16px; font-weight: 700; }
+.stats-card .finish-time { font-size: 24px; font-weight: 700; color: var(--kde); }
+.stats-card .pace { font-size: 13px; color: var(--muted); margin-top: -6px; }
+
+.badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.badge {
+  background: rgba(255,255,255,0.08);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.badge.green { background: rgba(32,217,160,0.15); color: var(--cdf); }
+.badge.red   { background: rgba(255,107,107,0.15); color: var(--bib); }
+
+.rank-table { width: 100%; border-collapse: collapse; }
+.rank-table td { padding: 4px 0; font-size: 13px; }
+.rank-table td:first-child { color: var(--muted); width: 90px; }
+.rank-table td:last-child   { text-align: right; }
+
+.divider { border: none; border-top: 1px solid rgba(255,255,255,0.08); }
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.footer {
+  margin-top: auto;
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--muted);
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.loading { padding: 40px; text-align: center; color: var(--muted); }
+.empty   { padding: 20px; text-align: center; color: var(--muted); font-size: 13px; }
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 700px) {
+  .runner-panel { grid-template-columns: 1fr; }
+}
