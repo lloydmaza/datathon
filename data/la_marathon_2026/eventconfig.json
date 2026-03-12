@@ -1,0 +1,3846 @@
+{
+    "schema":
+    {
+        "id": 2626,
+        "name": "ASICS Los Angeles Marathon",
+        "stream_name": "LAM26",
+        "timezone": "America/Los_Angeles",
+        "help_emails": "resultsinquiries@gmail.com",
+        "url": "https://www.lamarathon.com/",
+        "company_id": 10,
+        "metaevent_id": 31,
+        "date":
+        {
+            "local": "2026-03-08 06:30:00",
+            "timestamp": 1772976600,
+            "tz_offset": -28800
+        },
+        "schema_version": 142,
+        "subevents":
+        {
+            "6584":
+            {
+                "id": 6584,
+                "name": "Los Angeles Marathon",
+                "caption": "Marathon",
+                "mapping_id": "MARATHON",
+                "subeventtype_id": 1,
+                "relaytype": 0,
+                "subevent_date": "2026-03-08 06:30:00",
+                "hasLegs": false,
+                "finish_distance_id": 19747,
+                "legs":
+                {
+                    "0":
+                    {
+                        "id": 0,
+                        "subeventtype_id": 1,
+                        "name": "",
+                        "caption": "",
+                        "mapping_id": null,
+                        "distances":
+                        {
+                            "19738":
+                            {
+                                "id": 19738,
+                                "distance": 0,
+                                "leg_distance": 0,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36781,
+                                "passcount": 0,
+                                "label": "START",
+                                "is_metric": 0,
+                                "splittype_id": 1,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 1,
+                                "displayorder": 1,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD52"
+                            },
+                            "19739":
+                            {
+                                "id": 19739,
+                                "distance": 5000,
+                                "leg_distance": 5000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36783,
+                                "passcount": 0,
+                                "label": "5K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 2,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD53"
+                            },
+                            "19740":
+                            {
+                                "id": 19740,
+                                "distance": 15000,
+                                "leg_distance": 15000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36785,
+                                "passcount": 0,
+                                "label": "15K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 4,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD55"
+                            },
+                            "19741":
+                            {
+                                "id": 19741,
+                                "distance": 10000,
+                                "leg_distance": 10000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36787,
+                                "passcount": 0,
+                                "label": "10K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 3,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD54"
+                            },
+                            "19742":
+                            {
+                                "id": 19742,
+                                "distance": 20000,
+                                "leg_distance": 20000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36782,
+                                "passcount": 0,
+                                "label": "20K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 5,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD56"
+                            },
+                            "19743":
+                            {
+                                "id": 19743,
+                                "distance": 25000,
+                                "leg_distance": 25000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36786,
+                                "passcount": 0,
+                                "label": "25K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 6,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD57"
+                            },
+                            "19744":
+                            {
+                                "id": 19744,
+                                "distance": 30000,
+                                "leg_distance": 30000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36784,
+                                "passcount": 0,
+                                "label": "30K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 7,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD58"
+                            },
+                            "19745":
+                            {
+                                "id": 19745,
+                                "distance": 40000,
+                                "leg_distance": 40000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36789,
+                                "passcount": 0,
+                                "label": "40K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 9,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD60"
+                            },
+                            "19746":
+                            {
+                                "id": 19746,
+                                "distance": 35000,
+                                "leg_distance": 35000,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36790,
+                                "passcount": 0,
+                                "label": "35K",
+                                "is_metric": 1,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 8,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD59"
+                            },
+                            "19747":
+                            {
+                                "id": 19747,
+                                "distance": 42195,
+                                "leg_distance": 42195,
+                                "event_id": 2626,
+                                "subevent_id": 6584,
+                                "timingpoint_id": 36788,
+                                "passcount": 0,
+                                "label": "FINISH",
+                                "is_metric": 1,
+                                "splittype_id": 2,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 10,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD63"
+                            }
+                        },
+                        "displayorder": 0
+                    }
+                },
+                "categories":
+                {
+                    "0":
+                    {
+                        "id": 0,
+                        "name": "",
+                        "caption": "",
+                        "mapping_id": null,
+                        "main_category_ind": 0,
+                        "wr_filterable": 0,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 23400000
+                            }
+                        },
+                        "agegroups":
+                        {},
+                        "displayorder": -1,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {}
+                    },
+                    "10309":
+                    {
+                        "id": 10309,
+                        "name": "Elite",
+                        "caption": "Elite",
+                        "mapping_id": "ELITE",
+                        "main_category_ind": 1,
+                        "wr_filterable": 0,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 24255000
+                            },
+                            "3333":
+                            {
+                                "id": 3333,
+                                "name": "FELITE",
+                                "caption": "FELITE",
+                                "mapping_id": "3",
+                                "guntime": 24255000
+                            },
+                            "3339":
+                            {
+                                "id": 3339,
+                                "name": "MELITE",
+                                "caption": "MELITE",
+                                "mapping_id": "4",
+                                "guntime": 25200000
+                            }
+                        },
+                        "agegroups":
+                        {
+                            "unisex": true,
+                            "men":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "women":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "nonbinary":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "other":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            }
+                        },
+                        "displayorder": 1,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {
+                            "0":
+                            {
+                                "id": null,
+                                "name": null,
+                                "caption": null,
+                                "listingtype": 0,
+                                "score_label": null,
+                                "show_in_results": false,
+                                "displayorder": 1
+                            },
+                            "1":
+                            {
+                                "id": 140461,
+                                "name": "FELITE",
+                                "caption": "FELITE",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 2
+                            },
+                            "2":
+                            {
+                                "id": 140498,
+                                "name": "MELITE",
+                                "caption": "MELITE",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 3
+                            }
+                        }
+                    },
+                    "10310":
+                    {
+                        "id": 10310,
+                        "name": "Open",
+                        "caption": "Open",
+                        "mapping_id": "OPEN",
+                        "main_category_ind": 0,
+                        "wr_filterable": 1,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 25200000
+                            },
+                            "3328":
+                            {
+                                "id": 3328,
+                                "name": "1",
+                                "caption": "1",
+                                "mapping_id": "1",
+                                "guntime": 23400000
+                            },
+                            "3331":
+                            {
+                                "id": 3331,
+                                "name": "2",
+                                "caption": "2",
+                                "mapping_id": "2",
+                                "guntime": 23520000
+                            },
+                            "3334":
+                            {
+                                "id": 3334,
+                                "name": "7",
+                                "caption": "7",
+                                "mapping_id": "7",
+                                "guntime": 23520000
+                            },
+                            "3335":
+                            {
+                                "id": 3335,
+                                "name": "3",
+                                "caption": "3",
+                                "mapping_id": "3",
+                                "guntime": 24255000
+                            },
+                            "3336":
+                            {
+                                "id": 3336,
+                                "name": "5",
+                                "caption": "5",
+                                "mapping_id": "5",
+                                "guntime": 25200000
+                            },
+                            "3337":
+                            {
+                                "id": 3337,
+                                "name": "4",
+                                "caption": "4",
+                                "mapping_id": "4",
+                                "guntime": 25200000
+                            },
+                            "3341":
+                            {
+                                "id": 3341,
+                                "name": "8",
+                                "caption": "8",
+                                "mapping_id": "8",
+                                "guntime": 23520000
+                            }
+                        },
+                        "agegroups":
+                        {
+                            "unisex": true,
+                            "men":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            },
+                            "women":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            },
+                            "nonbinary":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            },
+                            "other":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            }
+                        },
+                        "displayorder": 2,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {
+                            "0":
+                            {
+                                "id": null,
+                                "name": null,
+                                "caption": null,
+                                "listingtype": 0,
+                                "score_label": null,
+                                "show_in_results": false,
+                                "displayorder": 1
+                            },
+                            "1":
+                            {
+                                "id": 140431,
+                                "name": "F15UND",
+                                "caption": "F15UND",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 2
+                            },
+                            "10":
+                            {
+                                "id": 140448,
+                                "name": "F55-59",
+                                "caption": "F55-59",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 11
+                            },
+                            "11":
+                            {
+                                "id": 140450,
+                                "name": "F60-64",
+                                "caption": "F60-64",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 12
+                            },
+                            "12":
+                            {
+                                "id": 140452,
+                                "name": "F65-69",
+                                "caption": "F65-69",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 13
+                            },
+                            "13":
+                            {
+                                "id": 140454,
+                                "name": "F70-74",
+                                "caption": "F70-74",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 14
+                            },
+                            "14":
+                            {
+                                "id": 140456,
+                                "name": "F75-79",
+                                "caption": "F75-79",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 15
+                            },
+                            "15":
+                            {
+                                "id": 140458,
+                                "name": "F80+",
+                                "caption": "F80+",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 16
+                            },
+                            "16":
+                            {
+                                "id": 140464,
+                                "name": "M15UND",
+                                "caption": "M15UND",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 17
+                            },
+                            "17":
+                            {
+                                "id": 140466,
+                                "name": "M16-19",
+                                "caption": "M16-19",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 18
+                            },
+                            "18":
+                            {
+                                "id": 140468,
+                                "name": "M20-24",
+                                "caption": "M20-24",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 19
+                            },
+                            "19":
+                            {
+                                "id": 140470,
+                                "name": "M25-29",
+                                "caption": "M25-29",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 20
+                            },
+                            "2":
+                            {
+                                "id": 140432,
+                                "name": "F16-19",
+                                "caption": "F16-19",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 3
+                            },
+                            "20":
+                            {
+                                "id": 140472,
+                                "name": "M30-34",
+                                "caption": "M30-34",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 21
+                            },
+                            "21":
+                            {
+                                "id": 140474,
+                                "name": "M35-39",
+                                "caption": "M35-39",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 22
+                            },
+                            "22":
+                            {
+                                "id": 140476,
+                                "name": "M40-44",
+                                "caption": "M40-44",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 23
+                            },
+                            "23":
+                            {
+                                "id": 140478,
+                                "name": "M45-49",
+                                "caption": "M45-49",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 24
+                            },
+                            "24":
+                            {
+                                "id": 140480,
+                                "name": "M50-54",
+                                "caption": "M50-54",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 25
+                            },
+                            "25":
+                            {
+                                "id": 140482,
+                                "name": "M55-59",
+                                "caption": "M55-59",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 26
+                            },
+                            "26":
+                            {
+                                "id": 140484,
+                                "name": "M60-64",
+                                "caption": "M60-64",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 27
+                            },
+                            "27":
+                            {
+                                "id": 140486,
+                                "name": "M65-69",
+                                "caption": "M65-69",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 28
+                            },
+                            "28":
+                            {
+                                "id": 140488,
+                                "name": "M70-74",
+                                "caption": "M70-74",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 29
+                            },
+                            "29":
+                            {
+                                "id": 140490,
+                                "name": "M75-79",
+                                "caption": "M75-79",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 30
+                            },
+                            "3":
+                            {
+                                "id": 140434,
+                                "name": "F20-24",
+                                "caption": "F20-24",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 4
+                            },
+                            "30":
+                            {
+                                "id": 140492,
+                                "name": "M80+",
+                                "caption": "M80+",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 31
+                            },
+                            "31":
+                            {
+                                "id": 140494,
+                                "name": "MAGEUNK",
+                                "caption": "MAGEUNK",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 32
+                            },
+                            "32":
+                            {
+                                "id": 140496,
+                                "name": "MAGEUNKNOWN",
+                                "caption": "MAGEUNKNOWN",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 33
+                            },
+                            "33":
+                            {
+                                "id": 140502,
+                                "name": "NONBINARY",
+                                "caption": "NONBINARY",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 34
+                            },
+                            "34":
+                            {
+                                "id": 140504,
+                                "name": "UNKNOWN",
+                                "caption": "UNKNOWN",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 35
+                            },
+                            "35":
+                            {
+                                "id": 140506,
+                                "name": "X",
+                                "caption": "X",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 36
+                            },
+                            "36":
+                            {
+                                "id": 140508,
+                                "name": "MAGEUNKOWN",
+                                "caption": "MAGEUNKOWN",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 37
+                            },
+                            "37":
+                            {
+                                "id": 140509,
+                                "name": "MAGEUKNOWN",
+                                "caption": "MAGEUKNOWN",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 38
+                            },
+                            "4":
+                            {
+                                "id": 140437,
+                                "name": "F25-29",
+                                "caption": "F25-29",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 5
+                            },
+                            "5":
+                            {
+                                "id": 140438,
+                                "name": "F30-34",
+                                "caption": "F30-34",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 6
+                            },
+                            "6":
+                            {
+                                "id": 140440,
+                                "name": "F35-39",
+                                "caption": "F35-39",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 7
+                            },
+                            "7":
+                            {
+                                "id": 140442,
+                                "name": "F40-44",
+                                "caption": "F40-44",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 8
+                            },
+                            "8":
+                            {
+                                "id": 140444,
+                                "name": "F45-49",
+                                "caption": "F45-49",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 9
+                            },
+                            "9":
+                            {
+                                "id": 140446,
+                                "name": "F50-54",
+                                "caption": "F50-54",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 10
+                            }
+                        }
+                    },
+                    "10311":
+                    {
+                        "id": 10311,
+                        "name": "Duo",
+                        "caption": "Duo",
+                        "mapping_id": "DUO",
+                        "main_category_ind": 0,
+                        "wr_filterable": 0,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 23520000
+                            },
+                            "3330":
+                            {
+                                "id": 3330,
+                                "name": "8",
+                                "caption": "8",
+                                "mapping_id": "8",
+                                "guntime": 23520000
+                            }
+                        },
+                        "agegroups":
+                        {
+                            "unisex": true,
+                            "men":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "women":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "nonbinary":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "other":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            }
+                        },
+                        "displayorder": 3,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {
+                            "0":
+                            {
+                                "id": null,
+                                "name": null,
+                                "caption": null,
+                                "listingtype": 0,
+                                "score_label": null,
+                                "show_in_results": false,
+                                "displayorder": 1
+                            },
+                            "1":
+                            {
+                                "id": 140460,
+                                "name": "FDUO",
+                                "caption": "FDUO",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 2
+                            },
+                            "2":
+                            {
+                                "id": 140497,
+                                "name": "MDUO",
+                                "caption": "MDUO",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 3
+                            }
+                        }
+                    },
+                    "10312":
+                    {
+                        "id": 10312,
+                        "name": "Handcycle",
+                        "caption": "Handcycle",
+                        "mapping_id": "HANDCYCLE",
+                        "main_category_ind": 0,
+                        "wr_filterable": 0,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 23520000
+                            },
+                            "3329":
+                            {
+                                "id": 3329,
+                                "name": "1",
+                                "caption": "1",
+                                "mapping_id": "1",
+                                "guntime": 21600000
+                            },
+                            "3332":
+                            {
+                                "id": 3332,
+                                "name": "2",
+                                "caption": "2",
+                                "mapping_id": "2",
+                                "guntime": 23520000
+                            }
+                        },
+                        "agegroups":
+                        {
+                            "unisex": true,
+                            "men":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "women":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "nonbinary":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "other":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            }
+                        },
+                        "displayorder": 4,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {
+                            "0":
+                            {
+                                "id": null,
+                                "name": null,
+                                "caption": null,
+                                "listingtype": 0,
+                                "score_label": null,
+                                "show_in_results": false,
+                                "displayorder": 1
+                            },
+                            "1":
+                            {
+                                "id": 140462,
+                                "name": "FHANDCYCLE",
+                                "caption": "FHANDCYCLE",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 2
+                            },
+                            "2":
+                            {
+                                "id": 140499,
+                                "name": "MHANDCYCLE",
+                                "caption": "MHANDCYCLE",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 3
+                            },
+                            "3":
+                            {
+                                "id": 140501,
+                                "name": "NBHANDCYCLE",
+                                "caption": "NBHANDCYCLE",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 4
+                            }
+                        }
+                    },
+                    "10313":
+                    {
+                        "id": 10313,
+                        "name": "Wheelchair",
+                        "caption": "Wheelchair",
+                        "mapping_id": "WHEELCHAIR",
+                        "main_category_ind": 0,
+                        "wr_filterable": 0,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 23400000
+                            },
+                            "3326":
+                            {
+                                "id": 3326,
+                                "name": "2",
+                                "caption": "2",
+                                "mapping_id": "2",
+                                "guntime": 23520000
+                            },
+                            "3327":
+                            {
+                                "id": 3327,
+                                "name": "1",
+                                "caption": "1",
+                                "mapping_id": "1",
+                                "guntime": 21600000
+                            }
+                        },
+                        "agegroups":
+                        {
+                            "unisex": true,
+                            "men":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "women":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "nonbinary":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            },
+                            "other":
+                            {
+                                "155":
+                                {
+                                    "id": 155,
+                                    "name": "Age 0 to 99",
+                                    "caption": "Age 0 to 99",
+                                    "minage": 0,
+                                    "maxage": 98
+                                }
+                            }
+                        },
+                        "displayorder": 5,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {
+                            "0":
+                            {
+                                "id": null,
+                                "name": null,
+                                "caption": null,
+                                "listingtype": 0,
+                                "score_label": null,
+                                "show_in_results": false,
+                                "displayorder": 1
+                            },
+                            "1":
+                            {
+                                "id": 140463,
+                                "name": "FWHEELCHAIR",
+                                "caption": "FWHEELCHAIR",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 2
+                            },
+                            "2":
+                            {
+                                "id": 140500,
+                                "name": "MWHEELCHAIR",
+                                "caption": "MWHEELCHAIR",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 3
+                            }
+                        }
+                    }
+                },
+                "displayorder": 1,
+                "event_config":
+                {
+                    "display_clocktime": true,
+                    "messaging":
+                    {
+                        "FROM_ADDRESS": "Xact Event Alerts <alerts@xacte.com>",
+                        "SPONSOR_MESSAGE": "Powered by Xact.",
+                        "SUBEVENT_URL": "https://www.lamarathon.com/"
+                    },
+                    "results":
+                    {
+                        "PHOTO_LINK": "",
+                        "show_net_clock_or_both": 0
+                    }
+                },
+                "show_in_results": true,
+                "agegroups":
+                {
+                    "unisex": true,
+                    "male":
+                    {},
+                    "female":
+                    {},
+                    "nonbinary":
+                    {},
+                    "other":
+                    {}
+                }
+            },
+            "6585":
+            {
+                "id": 6585,
+                "name": "Charity Challenge",
+                "caption": "CHARITY",
+                "mapping_id": "CHARITY",
+                "subeventtype_id": 1,
+                "relaytype": 0,
+                "subevent_date": "2026-03-08 08:15:00",
+                "hasLegs": false,
+                "finish_distance_id": 19753,
+                "legs":
+                {
+                    "0":
+                    {
+                        "id": 0,
+                        "subeventtype_id": 1,
+                        "name": "",
+                        "caption": "",
+                        "mapping_id": null,
+                        "distances":
+                        {
+                            "19748":
+                            {
+                                "id": 19748,
+                                "distance": 24288,
+                                "leg_distance": 24288,
+                                "event_id": 2626,
+                                "subevent_id": 6585,
+                                "timingpoint_id": 36785,
+                                "passcount": 0,
+                                "label": "4.6m ~ 15K Split",
+                                "is_metric": 0,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 2,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD55"
+                            },
+                            "19749":
+                            {
+                                "id": 19749,
+                                "distance": 40656,
+                                "leg_distance": 40656,
+                                "event_id": 2626,
+                                "subevent_id": 6585,
+                                "timingpoint_id": 36782,
+                                "passcount": 0,
+                                "label": "7.7m ~ 20K Split",
+                                "is_metric": 0,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 3,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD56"
+                            },
+                            "19750":
+                            {
+                                "id": 19750,
+                                "distance": 0,
+                                "leg_distance": 0,
+                                "event_id": 2626,
+                                "subevent_id": 6585,
+                                "timingpoint_id": 36791,
+                                "passcount": 0,
+                                "label": "CCSTART",
+                                "is_metric": 0,
+                                "splittype_id": 1,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 1,
+                                "displayorder": 1,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD61"
+                            },
+                            "19751":
+                            {
+                                "id": 19751,
+                                "distance": 57024,
+                                "leg_distance": 57024,
+                                "event_id": 2626,
+                                "subevent_id": 6585,
+                                "timingpoint_id": 36786,
+                                "passcount": 0,
+                                "label": "10.8m ~ 25K Split",
+                                "is_metric": 0,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 4,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD57"
+                            },
+                            "19752":
+                            {
+                                "id": 19752,
+                                "distance": 69218,
+                                "leg_distance": 69218,
+                                "event_id": 2626,
+                                "subevent_id": 6585,
+                                "timingpoint_id": 36794,
+                                "passcount": 0,
+                                "label": "13.1m Split",
+                                "is_metric": 0,
+                                "splittype_id": 3,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 5,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD66"
+                            },
+                            "19753":
+                            {
+                                "id": 19753,
+                                "distance": 22000,
+                                "leg_distance": 22000,
+                                "event_id": 2626,
+                                "subevent_id": 6585,
+                                "timingpoint_id": 36788,
+                                "passcount": 0,
+                                "label": "FINISH",
+                                "is_metric": 1,
+                                "splittype_id": 2,
+                                "leg_in": 0,
+                                "leg_out": 0,
+                                "message": 1,
+                                "update_logic": 0,
+                                "displayorder": 6,
+                                "show_in_results": true,
+                                "video":
+                                {},
+                                "mapping_id": "FIELD67"
+                            }
+                        },
+                        "displayorder": 0
+                    }
+                },
+                "categories":
+                {
+                    "0":
+                    {
+                        "id": 0,
+                        "name": "",
+                        "caption": "",
+                        "mapping_id": null,
+                        "main_category_ind": 0,
+                        "wr_filterable": 0,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 29700000
+                            }
+                        },
+                        "agegroups":
+                        {},
+                        "displayorder": -1,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {}
+                    },
+                    "10314":
+                    {
+                        "id": 10314,
+                        "name": "Open",
+                        "caption": "Open",
+                        "mapping_id": "OPEN",
+                        "main_category_ind": 1,
+                        "wr_filterable": 1,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 29700000
+                            },
+                            "3338":
+                            {
+                                "id": 3338,
+                                "name": "6",
+                                "caption": "6",
+                                "mapping_id": "6",
+                                "guntime": 29700000
+                            }
+                        },
+                        "agegroups":
+                        {
+                            "unisex": true,
+                            "men":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            },
+                            "women":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            },
+                            "nonbinary":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            },
+                            "other":
+                            {
+                                "10":
+                                {
+                                    "id": 10,
+                                    "name": "55 - 59",
+                                    "caption": "55 - 59",
+                                    "minage": 55,
+                                    "maxage": 59
+                                },
+                                "100":
+                                {
+                                    "id": 100,
+                                    "name": "15 & Under",
+                                    "caption": "15 & Under",
+                                    "minage": 0,
+                                    "maxage": 15
+                                },
+                                "11":
+                                {
+                                    "id": 11,
+                                    "name": "60 - 64",
+                                    "caption": "60 - 64",
+                                    "minage": 60,
+                                    "maxage": 64
+                                },
+                                "12":
+                                {
+                                    "id": 12,
+                                    "name": "65 - 69",
+                                    "caption": "65 - 69",
+                                    "minage": 65,
+                                    "maxage": 69
+                                },
+                                "13":
+                                {
+                                    "id": 13,
+                                    "name": "70 - 74",
+                                    "caption": "70 - 74",
+                                    "minage": 70,
+                                    "maxage": 74
+                                },
+                                "14":
+                                {
+                                    "id": 14,
+                                    "name": "75 - 79",
+                                    "caption": "75 - 79",
+                                    "minage": 75,
+                                    "maxage": 79
+                                },
+                                "15":
+                                {
+                                    "id": 15,
+                                    "name": "80 & Over",
+                                    "caption": "80 & Over",
+                                    "minage": 80,
+                                    "maxage": 98
+                                },
+                                "19":
+                                {
+                                    "id": 19,
+                                    "name": "20 - 24",
+                                    "caption": "20 - 24",
+                                    "minage": 20,
+                                    "maxage": 24
+                                },
+                                "24":
+                                {
+                                    "id": 24,
+                                    "name": "16 - 19",
+                                    "caption": "16 - 19",
+                                    "minage": 16,
+                                    "maxage": 19
+                                },
+                                "4":
+                                {
+                                    "id": 4,
+                                    "name": "25 - 29",
+                                    "caption": "25 - 29",
+                                    "minage": 25,
+                                    "maxage": 29
+                                },
+                                "5":
+                                {
+                                    "id": 5,
+                                    "name": "30 - 34",
+                                    "caption": "30 - 34",
+                                    "minage": 30,
+                                    "maxage": 34
+                                },
+                                "6":
+                                {
+                                    "id": 6,
+                                    "name": "35 - 39",
+                                    "caption": "35 - 39",
+                                    "minage": 35,
+                                    "maxage": 39
+                                },
+                                "7":
+                                {
+                                    "id": 7,
+                                    "name": "40 - 44",
+                                    "caption": "40 - 44",
+                                    "minage": 40,
+                                    "maxage": 44
+                                },
+                                "8":
+                                {
+                                    "id": 8,
+                                    "name": "45 - 49",
+                                    "caption": "45 - 49",
+                                    "minage": 45,
+                                    "maxage": 49
+                                },
+                                "9":
+                                {
+                                    "id": 9,
+                                    "name": "50 - 54",
+                                    "caption": "50 - 54",
+                                    "minage": 50,
+                                    "maxage": 54
+                                }
+                            }
+                        },
+                        "displayorder": 1,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {
+                            "0":
+                            {
+                                "id": null,
+                                "name": null,
+                                "caption": null,
+                                "listingtype": 0,
+                                "score_label": null,
+                                "show_in_results": false,
+                                "displayorder": 1
+                            },
+                            "1":
+                            {
+                                "id": 140430,
+                                "name": "F15UND",
+                                "caption": "F15UND",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 2
+                            },
+                            "10":
+                            {
+                                "id": 140449,
+                                "name": "F55-59",
+                                "caption": "F55-59",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 11
+                            },
+                            "11":
+                            {
+                                "id": 140451,
+                                "name": "F60-64",
+                                "caption": "F60-64",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 12
+                            },
+                            "12":
+                            {
+                                "id": 140453,
+                                "name": "F65-69",
+                                "caption": "F65-69",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 13
+                            },
+                            "13":
+                            {
+                                "id": 140455,
+                                "name": "F70-74",
+                                "caption": "F70-74",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 14
+                            },
+                            "14":
+                            {
+                                "id": 140457,
+                                "name": "F75-79",
+                                "caption": "F75-79",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 15
+                            },
+                            "15":
+                            {
+                                "id": 140459,
+                                "name": "F80+",
+                                "caption": "F80+",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 16
+                            },
+                            "16":
+                            {
+                                "id": 140465,
+                                "name": "M15UND",
+                                "caption": "M15UND",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 17
+                            },
+                            "17":
+                            {
+                                "id": 140467,
+                                "name": "M16-19",
+                                "caption": "M16-19",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 18
+                            },
+                            "18":
+                            {
+                                "id": 140469,
+                                "name": "M20-24",
+                                "caption": "M20-24",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 19
+                            },
+                            "19":
+                            {
+                                "id": 140471,
+                                "name": "M25-29",
+                                "caption": "M25-29",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 20
+                            },
+                            "2":
+                            {
+                                "id": 140433,
+                                "name": "F16-19",
+                                "caption": "F16-19",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 3
+                            },
+                            "20":
+                            {
+                                "id": 140473,
+                                "name": "M30-34",
+                                "caption": "M30-34",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 21
+                            },
+                            "21":
+                            {
+                                "id": 140475,
+                                "name": "M35-39",
+                                "caption": "M35-39",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 22
+                            },
+                            "22":
+                            {
+                                "id": 140477,
+                                "name": "M40-44",
+                                "caption": "M40-44",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 23
+                            },
+                            "23":
+                            {
+                                "id": 140479,
+                                "name": "M45-49",
+                                "caption": "M45-49",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 24
+                            },
+                            "24":
+                            {
+                                "id": 140481,
+                                "name": "M50-54",
+                                "caption": "M50-54",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 25
+                            },
+                            "25":
+                            {
+                                "id": 140483,
+                                "name": "M55-59",
+                                "caption": "M55-59",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 26
+                            },
+                            "26":
+                            {
+                                "id": 140485,
+                                "name": "M60-64",
+                                "caption": "M60-64",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 27
+                            },
+                            "27":
+                            {
+                                "id": 140487,
+                                "name": "M65-69",
+                                "caption": "M65-69",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 28
+                            },
+                            "28":
+                            {
+                                "id": 140489,
+                                "name": "M70-74",
+                                "caption": "M70-74",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 29
+                            },
+                            "29":
+                            {
+                                "id": 140491,
+                                "name": "M75-79",
+                                "caption": "M75-79",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 30
+                            },
+                            "3":
+                            {
+                                "id": 140435,
+                                "name": "F20-24",
+                                "caption": "F20-24",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 4
+                            },
+                            "30":
+                            {
+                                "id": 140493,
+                                "name": "M80+",
+                                "caption": "M80+",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 31
+                            },
+                            "31":
+                            {
+                                "id": 140495,
+                                "name": "MAGEUNK",
+                                "caption": "MAGEUNK",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 32
+                            },
+                            "32":
+                            {
+                                "id": 140503,
+                                "name": "NONBINARY",
+                                "caption": "NONBINARY",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 33
+                            },
+                            "33":
+                            {
+                                "id": 140505,
+                                "name": "UNKNOWN",
+                                "caption": "UNKNOWN",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 34
+                            },
+                            "34":
+                            {
+                                "id": 140507,
+                                "name": "X",
+                                "caption": "X",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 35
+                            },
+                            "4":
+                            {
+                                "id": 140436,
+                                "name": "F25-29",
+                                "caption": "F25-29",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 5
+                            },
+                            "5":
+                            {
+                                "id": 140439,
+                                "name": "F30-34",
+                                "caption": "F30-34",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 6
+                            },
+                            "6":
+                            {
+                                "id": 140441,
+                                "name": "F35-39",
+                                "caption": "F35-39",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 7
+                            },
+                            "7":
+                            {
+                                "id": 140443,
+                                "name": "F40-44",
+                                "caption": "F40-44",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 8
+                            },
+                            "8":
+                            {
+                                "id": 140445,
+                                "name": "F45-49",
+                                "caption": "F45-49",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 9
+                            },
+                            "9":
+                            {
+                                "id": 140447,
+                                "name": "F50-54",
+                                "caption": "F50-54",
+                                "listingtype": 3,
+                                "score_label": null,
+                                "show_in_results": true,
+                                "displayorder": 10
+                            }
+                        }
+                    },
+                    "10315":
+                    {
+                        "id": 10315,
+                        "name": "Wheelchair",
+                        "caption": "Wheelchair",
+                        "mapping_id": "WHEELCHAIR",
+                        "main_category_ind": 0,
+                        "wr_filterable": 0,
+                        "waves":
+                        {
+                            "0":
+                            {
+                                "id": 0,
+                                "name": "",
+                                "caption": "",
+                                "mapping_id": null,
+                                "guntime": 29700000
+                            },
+                            "3340":
+                            {
+                                "id": 3340,
+                                "name": "6",
+                                "caption": "6",
+                                "mapping_id": "6",
+                                "guntime": 29700000
+                            }
+                        },
+                        "agegroups":
+                        {},
+                        "displayorder": 2,
+                        "event_config":
+                        {
+                            "display_clocktime": true
+                        },
+                        "listings":
+                        {
+                            "0":
+                            {
+                                "id": null,
+                                "name": null,
+                                "caption": null,
+                                "listingtype": 0,
+                                "score_label": null,
+                                "show_in_results": false,
+                                "displayorder": 1
+                            }
+                        }
+                    }
+                },
+                "displayorder": 2,
+                "event_config":
+                {
+                    "display_clocktime": true,
+                    "messaging":
+                    {
+                        "FROM_ADDRESS": "Xact Event Alerts <alerts@xacte.com>",
+                        "SPONSOR_MESSAGE": "Powered by Xact.",
+                        "SUBEVENT_URL": "https://www.lamarathon.com/"
+                    },
+                    "results":
+                    {
+                        "PHOTO_LINK": "",
+                        "show_net_clock_or_both": 0
+                    }
+                },
+                "show_in_results": true,
+                "agegroups":
+                {
+                    "unisex": true,
+                    "male":
+                    {},
+                    "female":
+                    {},
+                    "nonbinary":
+                    {},
+                    "other":
+                    {}
+                }
+            }
+        },
+        "event_config":
+        {
+            "alerter_templates":
+            {
+                "6584":
+                {
+                    "19738":
+                    {
+                        "1":
+                        {
+                            "text": 1
+                        },
+                        "11":
+                        {
+                            "icon": 8154,
+                            "image": 8136,
+                            "message": 8079,
+                            "title": 8091,
+                            "url": 8118
+                        },
+                        "2":
+                        {
+                            "html": 12,
+                            "subject": 10,
+                            "text": 11
+                        },
+                        "3":
+                        {
+                            "event_url": 38,
+                            "event_url_desc": 39,
+                            "message": 36,
+                            "picture": 37,
+                            "sponsor_extended": 41,
+                            "sponsor_message": 40,
+                            "sponsor_url": 42,
+                            "sponsor_url_desc": 43
+                        },
+                        "4":
+                        {
+                            "text": 85
+                        },
+                        "8":
+                        {
+                            "text": 6015
+                        },
+                        "9":
+                        {
+                            "text": 6321
+                        }
+                    },
+                    "19739":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19740":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19741":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19742":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19743":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19744":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19745":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19746":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19747":
+                    {
+                        "1":
+                        {
+                            "text": 2
+                        },
+                        "11":
+                        {
+                            "icon": 8140,
+                            "image": 8122,
+                            "message": 8065,
+                            "title": 8099,
+                            "url": 8104
+                        },
+                        "2":
+                        {
+                            "html": 15,
+                            "subject": 13,
+                            "text": 14
+                        },
+                        "3":
+                        {
+                            "event_url": 46,
+                            "event_url_desc": 47,
+                            "message": 44,
+                            "picture": 45,
+                            "sponsor_extended": 49,
+                            "sponsor_message": 48,
+                            "sponsor_url": 50,
+                            "sponsor_url_desc": 51
+                        },
+                        "4":
+                        {
+                            "text": 86
+                        },
+                        "8":
+                        {
+                            "text": 5719
+                        },
+                        "9":
+                        {
+                            "text": 6025
+                        }
+                    }
+                },
+                "6585":
+                {
+                    "19748":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19749":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19750":
+                    {
+                        "1":
+                        {
+                            "text": 1
+                        },
+                        "11":
+                        {
+                            "icon": 8154,
+                            "image": 8136,
+                            "message": 8079,
+                            "title": 8091,
+                            "url": 8118
+                        },
+                        "2":
+                        {
+                            "html": 12,
+                            "subject": 10,
+                            "text": 11
+                        },
+                        "3":
+                        {
+                            "event_url": 38,
+                            "event_url_desc": 39,
+                            "message": 36,
+                            "picture": 37,
+                            "sponsor_extended": 41,
+                            "sponsor_message": 40,
+                            "sponsor_url": 42,
+                            "sponsor_url_desc": 43
+                        },
+                        "4":
+                        {
+                            "text": 85
+                        },
+                        "8":
+                        {
+                            "text": 6015
+                        },
+                        "9":
+                        {
+                            "text": 6321
+                        }
+                    },
+                    "19751":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19752":
+                    {
+                        "1":
+                        {
+                            "text": 3
+                        },
+                        "11":
+                        {
+                            "icon": 8141,
+                            "image": 8123,
+                            "message": 8066,
+                            "title": 8100,
+                            "url": 8105
+                        },
+                        "2":
+                        {
+                            "html": 18,
+                            "subject": 16,
+                            "text": 17
+                        },
+                        "3":
+                        {
+                            "event_url": 54,
+                            "event_url_desc": 55,
+                            "message": 52,
+                            "picture": 53,
+                            "sponsor_extended": 57,
+                            "sponsor_message": 56,
+                            "sponsor_url": 58,
+                            "sponsor_url_desc": 59
+                        },
+                        "4":
+                        {
+                            "text": 87
+                        },
+                        "8":
+                        {
+                            "text": 5720
+                        },
+                        "9":
+                        {
+                            "text": 6026
+                        }
+                    },
+                    "19753":
+                    {
+                        "1":
+                        {
+                            "text": 2
+                        },
+                        "11":
+                        {
+                            "icon": 8140,
+                            "image": 8122,
+                            "message": 8065,
+                            "title": 8099,
+                            "url": 8104
+                        },
+                        "2":
+                        {
+                            "html": 15,
+                            "subject": 13,
+                            "text": 14
+                        },
+                        "3":
+                        {
+                            "event_url": 46,
+                            "event_url_desc": 47,
+                            "message": 44,
+                            "picture": 45,
+                            "sponsor_extended": 49,
+                            "sponsor_message": 48,
+                            "sponsor_url": 50,
+                            "sponsor_url_desc": 51
+                        },
+                        "4":
+                        {
+                            "text": 86
+                        },
+                        "8":
+                        {
+                            "text": 5719
+                        },
+                        "9":
+                        {
+                            "text": 6025
+                        }
+                    }
+                }
+            },
+            "coordinates":
+            {
+                "latitude": 34.072578,
+                "longitude": -118.240288
+            },
+            "display_24h": false,
+            "display_clocktime": true,
+            "display_tod": false,
+            "is_metric": false,
+            "messaging_templates":
+            {
+                "0":
+                {
+                    "tpl_name": "default"
+                },
+                "6584":
+                {
+                    "distances":
+                    {
+                        "0": "default",
+                        "19738": "default",
+                        "19739": "default",
+                        "19740": "default",
+                        "19741": "default",
+                        "19742": "default",
+                        "19743": "default",
+                        "19744": "default",
+                        "19745": "default",
+                        "19746": "default",
+                        "19747": "default"
+                    },
+                    "tpl_name": "default"
+                },
+                "6585":
+                {
+                    "distances":
+                    {
+                        "0": "default",
+                        "19748": "default",
+                        "19749": "default",
+                        "19750": "default",
+                        "19751": "default",
+                        "19752": "default",
+                        "19753": "default"
+                    },
+                    "tpl_name": "default"
+                }
+            },
+            "pub_outlets":
+            {
+                "android":
+                {
+                    "active": false,
+                    "outlet": 9
+                },
+                "email":
+                {
+                    "active": false,
+                    "outlet": 2
+                },
+                "facebook":
+                {
+                    "active": false,
+                    "outlet": 3
+                },
+                "ios":
+                {
+                    "active": false,
+                    "outlet": 8
+                },
+                "sms":
+                {
+                    "active": false,
+                    "outlet": 10
+                },
+                "twitter":
+                {
+                    "active": false,
+                    "outlet": 4
+                },
+                "webpush":
+                {
+                    "active": false,
+                    "outlet": 11
+                }
+            },
+            "results":
+            {
+                "PHOTO_LINK": "",
+                "background_color": "",
+                "background_image": "",
+                "banner": "https://www.mccourtfoundation.org/wp-content/uploads/2023/09/2LosAngelesMarathon_lock-up_062025.png",
+                "hide_totals": true,
+                "info":
+                {
+                    "buttons":
+                    {
+                        "0":
+                        {
+                            "id": "p7wpit",
+                            "name": "Race Website",
+                            "url": "https://www.mccourtfoundation.org/event/los-angeles-marathon/"
+                        }
+                    },
+                    "icons":
+                    {
+                        "0":
+                        {
+                            "icon": "fa fa-facebook",
+                            "id": "apzm3b",
+                            "name": "Facebook",
+                            "url": "https://www.facebook.com/LAMarathon/"
+                        },
+                        "1":
+                        {
+                            "icon": "fa fa-twitter",
+                            "id": "z4a6qa",
+                            "name": "X",
+                            "url": "https://x.com/lamarathon"
+                        },
+                        "2":
+                        {
+                            "icon": "fa fa-instagram",
+                            "id": "stfwi8",
+                            "name": "Instagram",
+                            "url": "https://www.instagram.com/lamarathon/"
+                        },
+                        "3":
+                        {
+                            "icon": "fa fa-linkedin",
+                            "id": "9fm3h",
+                            "name": "LinkedIn",
+                            "url": "https://www.linkedin.com/company/lamarathon/"
+                        }
+                    },
+                    "show_on_load": true
+                },
+                "show_data": false,
+                "show_data1": false,
+                "show_data2": false,
+                "show_data3": false,
+                "show_data4": false,
+                "show_data5": false,
+                "show_data6": false,
+                "show_data7": false,
+                "show_net_clock_or_both": 0,
+                "theme":
+                {
+                    "logo": "https://www.mccourtfoundation.org/wp-content/uploads/2023/09/2LosAngelesMarathon_lock-up_062025.png"
+                }
+            }
+        },
+        "datastreams":
+        {
+            "10K": 36787,
+            "15K": 36785,
+            "20K": 36782,
+            "25K": 36786,
+            "30K": 36784,
+            "35K": 36790,
+            "40K": 36789,
+            "5K": 36783,
+            "ANNC": 36793,
+            "CHEAT": 36792,
+            "FIELD52": 36781,
+            "FIELD53": 36783,
+            "FIELD54": 36787,
+            "FIELD55": 36785,
+            "FIELD56": 36782,
+            "FIELD57": 36786,
+            "FIELD58": 36784,
+            "FIELD59": 36790,
+            "FIELD60": 36789,
+            "FIELD61": 36791,
+            "FIELD62": 36793,
+            "FIELD63": 36788,
+            "FIELD65": 36792,
+            "FIELD66": 36794,
+            "FIELD67": 36795,
+            "FINISH": 36788,
+            "HTIM": 36795,
+            "SPHALF": 36791,
+            "START": 36781
+        }
+    },
+    "services":
+    {
+        "timezone": "America/Los_Angeles",
+        "status": 4,
+        "streamname": "LAM26",
+        "help_emails": "resultsinquiries@gmail.com",
+        "enable_msg": false,
+        "enable_qr": false,
+        "enable_lr": true,
+        "enable_map": false,
+        "msgsignup_open": false,
+        "results_open": true,
+        "qr_open": false,
+        "map_open": false,
+        "event_live": false
+    }
+}

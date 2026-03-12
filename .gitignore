@@ -1,2 +1,17 @@
 # Generic
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Raw page cache (large, not needed in repo)
+data/*/pages/
+
+# JS build artifacts
+web/node_modules/
+web/dist/
+
+# Generated JSON (built by CI from committed CSVs)
+web/public/data/

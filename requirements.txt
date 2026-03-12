@@ -2,4 +2,6 @@ httpx
 pandas
 plotly
 dash
+dash-mantine-components
 scipy
+beautifulsoup4
