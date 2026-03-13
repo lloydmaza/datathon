@@ -1,0 +1,56 @@
+[
+  {
+    "race_key": "la_marathon_2026",
+    "display_name": "2026 LA Marathon",
+    "distance_m": 42195,
+    "has_category": true,
+    "has_short_course": true,
+    "has_splits": true,
+    "runner_count": 21815
+  },
+  {
+    "race_key": "la_marathon_2025",
+    "display_name": "2025 LA Marathon",
+    "distance_m": 42195,
+    "has_category": true,
+    "has_short_course": true,
+    "has_splits": true,
+    "runner_count": 20972
+  },
+  {
+    "race_key": "sf_marathon_2025",
+    "display_name": "2025 SF Marathon",
+    "distance_m": 42165,
+    "has_category": false,
+    "has_short_course": false,
+    "has_splits": false,
+    "runner_count": 6537
+  },
+  {
+    "race_key": "sf_1st_half_2025",
+    "display_name": "2025 SF 1st Half Marathon",
+    "distance_m": 21082,
+    "has_category": false,
+    "has_short_course": false,
+    "has_splits": false,
+    "runner_count": 7097
+  },
+  {
+    "race_key": "sf_2nd_half_2025",
+    "display_name": "2025 SF 2nd Half Marathon",
+    "distance_m": 21082,
+    "has_category": false,
+    "has_short_course": false,
+    "has_splits": false,
+    "runner_count": 3604
+  },
+  {
+    "race_key": "monterey_bay_half_2025",
+    "display_name": "2025 Monterey Bay Half Marathon",
+    "distance_m": 21082,
+    "has_category": false,
+    "has_short_course": false,
+    "has_splits": false,
+    "runner_count": 6907
+  }
+]
