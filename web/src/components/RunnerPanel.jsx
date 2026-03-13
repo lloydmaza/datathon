@@ -6,6 +6,8 @@ import {
   computeHistogram, timeTicks, isFinisher,
 } from '../utils/stats.js'
 
+const isTouchDevice = typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches
+
 const PAPER = { paper_bgcolor: COLORS.paper, plot_bgcolor: COLORS.bg, template: 'plotly_dark' }
 
 function paceSecPerMile(deltaMs, distM) {
@@ -110,7 +112,7 @@ function SplitsChart({ bib, splits, meta }) {
   return (
     <Plot data={fig.data} layout={fig.layout}
       style={{ width: '100%' }} useResizeHandler
-      config={{ displayModeBar: false, responsive: true }} />
+      config={{ displayModeBar: false, responsive: true, staticPlot: isTouchDevice }} />
   )
 }
 
@@ -161,7 +163,7 @@ function CohortChart({ runner, finishers }) {
   return (
     <Plot data={fig.data} layout={fig.layout}
       style={{ width: '100%' }} useResizeHandler
-      config={{ displayModeBar: false, responsive: true }} />
+      config={{ displayModeBar: false, responsive: true, staticPlot: isTouchDevice }} />
   )
 }
 

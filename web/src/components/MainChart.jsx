@@ -1,10 +1,12 @@
-import { useMemo, useCallback, useState } from 'react'
+import { useMemo, useCallback, useState, useEffect } from 'react'
 import Plot from '../PlotlyChart.jsx'
 import {
   COLORS, BIN_WIDTH,
   computeHistogram, computeCDF, gaussianKDE, scottBandwidth, timeTicks,
   fmtMinutes,
 } from '../utils/stats.js'
+
+const isTouchDevice = typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches
 
 const LAYOUT_BASE = {
   template:        'plotly_dark',
@@ -14,11 +16,17 @@ const LAYOUT_BASE = {
   hovermode:       'closest',
   hoverlabel:      { bgcolor: '#2C2E33', font: { color: 'white' }, bordercolor: '#555' },
   margin:          { t: 60, b: 20, l: 60, r: 20 },
-  height:          680,
 }
 
 export default function MainChart({ finishers, meta, activeBib, allRunners, onBibClick }) {
   const [revision, setRevision] = useState(0)
+  const [viewH, setViewH] = useState(() => window.innerHeight)
+  useEffect(() => {
+    const handler = () => setViewH(window.innerHeight)
+    window.addEventListener('resize', handler)
+    return () => window.removeEventListener('resize', handler)
+  }, [])
+  const chartHeight = Math.min(680, Math.round(viewH * 0.85))
 
   const figData = useMemo(() => {
     if (!finishers.length) return null
@@ -167,6 +175,8 @@ export default function MainChart({ finishers, meta, activeBib, allRunners, onBi
 
     return {
       ...LAYOUT_BASE,
+      height: chartHeight,
+      dragmode: isTouchDevice ? false : 'zoom',
       title: {
         text: `${meta?.display_name ?? ''} — Finish Time Distribution  ·  n=${finishers.length.toLocaleString()}`,
         font: { size: 15, color: 'rgba(255,255,255,0.85)' },
@@ -180,7 +190,7 @@ export default function MainChart({ finishers, meta, activeBib, allRunners, onBi
       shapes,
       annotations: annotations.map(a => ({ ...a, font: { ...a.font } })),
     }
-  }, [figData, meta, finishers.length, activeBib, allRunners])
+  }, [figData, meta, finishers.length, activeBib, allRunners, chartHeight])
 
   const handleClick = useCallback((evt) => {
     const pt = evt?.points?.[0]
@@ -191,14 +201,14 @@ export default function MainChart({ finishers, meta, activeBib, allRunners, onBi
   if (!figData) return <div className="loading">Not enough data for selected filters.</div>
 
   return (
-    <div className="main-chart">
+    <div className="main-chart" style={{ touchAction: 'pan-y' }}>
       <Plot
         data={figData.traces}
         layout={layout}
         revision={revision}
         style={{ width: '100%' }}
         useResizeHandler
-        config={{ displayModeBar: false, responsive: true }}
+        config={{ displayModeBar: false, responsive: true, scrollZoom: false }}
         onClick={handleClick}
       />
     </div>

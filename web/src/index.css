@@ -17,10 +17,10 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 14px;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
-#root { display: flex; flex-direction: column; min-height: 100vh; }
+#root { display: flex; flex-direction: column; min-height: 100dvh; }
 
 /* ── Header ──────────────────────────────────────────────────────────────── */
 .header {
@@ -94,7 +94,7 @@ select option { background: var(--card); }
 .search-dropdown button:hover { background: rgba(255,255,255,0.07); }
 
 /* ── Main chart ──────────────────────────────────────────────────────────── */
-.main-chart { padding: 0 8px; }
+.main-chart { padding: 0 8px; touch-action: pan-y; }
 
 /* ── Runner panel ────────────────────────────────────────────────────────── */
 .runner-panel-wrapper {
@@ -106,7 +106,7 @@ select option { background: var(--card); }
 .runner-panel {
   margin: 0 20px 40px;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: minmax(260px, 300px) 1fr;
   gap: 16px;
   align-items: start;
 }
@@ -155,5 +155,18 @@ select option { background: var(--card); }
 
 /* ── Responsive ──────────────────────────────────────────────────────────── */
 @media (max-width: 700px) {
-  .runner-panel { grid-template-columns: 1fr; }
+  .runner-panel {
+    grid-template-columns: 1fr;
+    margin: 0 12px 40px;
+  }
+
+  .controls {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  select, input[type="text"] {
+    font-size: 16px; /* prevent iOS zoom on focus */
+    height: 36px;
+  }
 }
